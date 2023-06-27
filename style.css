@@ -1,0 +1,166 @@
+/* #calculator_containor{
+    width: 50%;
+    height: 80vh;
+    background-color:#bdcad1;
+box-shadow: 10px 10px #000;
+margin: 0% auto;
+}
+#calculator_containor .output{
+width: 95%;
+border: 1px solid #000;
+box-shadow: 2px 2px 2px 2px #000;
+margin: 0% auto;
+padding-bottom: 12%;
+margin-bottom: 5%;
+border-radius: 15px;
+}
+#opt_containor .opt{
+    width: auto;
+    border: 1px solid #ebf2f6;
+    padding: 3% 7%;
+    box-shadow: 1px 1px 1px 1px #000;
+margin: 2%;
+} */
+
+
+body {
+    background-image: url(./images/bgimg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .calculator {
+ width: 400px;
+     margin: 100px auto;
+     background-color: #686464;
+     border-radius: 5px;
+     box-shadow: 0 2px 6px rgba(139, 133, 133, 0.5);
+     padding: 10px;
+ }
+ @media only screen and (max-width: 410px){
+     .calculator{
+         width: 300px;
+     }
+ }
+ @media only screen and (max-width: 315px){
+     .calculator{
+         width: 230px;
+     }
+ }
+ 
+ #result {
+    width: 97%;
+     height: 50px;
+     text-align: right;
+     font-size: 34px;
+    margin-bottom: 5%;
+     border: 1px solid;
+     border-radius: 6px;
+     outline: none;
+     padding: 5px;
+     margin: 0% auto;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+ 
+ }
+ 
+ .buttons {
+     display:grid;
+     grid-template-columns: repeat(4, 1fr); 
+      gap: 6px;
+      margin-top: 8px;
+ 
+      align-items: center;
+ }
+ 
+ button {
+     width: 100%;
+     height: 50px;
+     background-color: #f2f2f2;
+     border: none;
+     outline: none;
+     font-size: 18px;
+     cursor: pointer;
+     border-radius: 5px;
+ 
+ }
+ 
+ button:hover {
+     opacity: 0.5;
+ }
+ 
+ button:active {
+     background-color: #d3d3d3;
+ }
+ .opt{
+     background-color: #c6c2c2;
+ 
+ }
+ .isequal{
+     background-color: #0a6aa6;
+     font-size: 24px;
+     font-weight: 800;
+    color: #fff;
+ 
+ }
+ 
+ 
+ 
+ 
+ .containor{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #616161;
+     width: 100%;
+     height:14vh;
+ 
+    }
+    .containor .footer-logo{
+     display: flex;
+     justify-content: space-evenly;
+ width: 200px;
+ height: 100%;
+    }
+ 
+ 
+ .copycontianor{
+ display: flex;
+ justify-content: center;
+ width: 100%;
+ height: 12vh;
+ background-color: #fff;
+ font-weight: 700;
+ 
+    }
+    .logo{
+     display: flex;
+     align-items: center;
+ 
+    }
+     .copywritetxt{
+     width: 100%;
+     display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color: #000000;
+   color: #fff;
+   text-align: center;
+    }
+ 
+    .copycontianor2{
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     height: 10vh;
+     background-color: #616161;
+     font-weight: 600;
+    }
+    .copycontianor2 .copywritetxt2{
+     display: flex;
+     align-items: center;
+     text-align: center;
+ 
+    }
